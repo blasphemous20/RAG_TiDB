@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ruang Halal AI Assistant — konsultasi informasi halal yang lebih jernih." />
+    <title>Ruang Halal — AI Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#konsultasi">Langsung ke konsultasi</a>
+    <header class="site-header">
+      <a class="brand" href="#beranda" aria-label="Ruang Halal, kembali ke beranda">
+        <span class="brand-mark">R</span>
+        <span>ruanghalal<span class="brand-dot">.</span></span>
+      </a>
+      <nav aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#layanan">Ekosistem</a>
+        <a href="#cara-kerja">Cara kerja</a>
+      </nav>
+      <button class="header-ask" data-open-chat type="button">Tanya AI <span aria-hidden="true">↗</span></button>
+    </header>
+
+    <main id="beranda">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Smart halal ecosystem</p>
+          <h1 id="hero-title">Saat pertanyaan halal perlu jawaban yang <em>jernih.</em></h1>
+          <p class="hero-intro">Ruang Halal mempertemukan informasi, layanan, dan teknologi agar perjalanan menuju ekosistem halal terasa lebih dekat.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" data-open-chat type="button">Mulai konsultasi <span aria-hidden="true">→</span></button>
+            <a class="text-link" href="#tentang">Kenal Ruang Halal <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-composition" aria-label="Ilustrasi ekosistem halal terhubung">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-seal">
+            <span class="seal-top">Ruang Halal</span>
+            <strong>HALAL</strong>
+            <span class="seal-bottom">Informasi yang bertumbuh</span>
+          </div>
+          <div class="signal signal-a"><i></i><span>Usaha</span></div>
+          <div class="signal signal-b"><i></i><span>Komunitas</span></div>
+          <div class="signal signal-c"><i></i><span>Informasi</span></div>
+          <p class="composition-note">Satu ruang untuk<br />banyak langkah baik.</p>
+        </div>
+        <div class="hero-foot">Jelajahi dengan pertanyaan Anda <span>↓</span></div>
+      </section>
+
+      <section class="statement" id="tentang" aria-labelledby="statement-title">
+        <p class="section-kicker">Tentang Ruang Halal</p>
+        <div>
+          <h2 id="statement-title">Ekosistem halal bukan labirin. Ia adalah ruang yang bisa dipahami, satu pertanyaan pada satu waktu.</h2>
+          <p>Mulai dari pengenalan layanan hingga proses sertifikasi, Ruang Halal membantu Anda menemukan konteks yang dibutuhkan untuk melangkah dengan lebih pasti.</p>
+        </div>
+      </section>
+
+      <section class="ecosystem" id="layanan" aria-labelledby="ecosystem-title">
+        <div class="ecosystem-heading">
+          <p class="section-kicker">Di dalam Ruang Halal</p>
+          <h2 id="ecosystem-title">Yang Anda butuhkan, saling terhubung.</h2>
+        </div>
+        <div class="service-list">
+          <article class="service service-lime"><span class="service-index">A</span><h3>Informasi halal</h3><p>Jawaban yang membumi untuk memahami ekosistem dan layanan.</p><span class="service-arrow">↗</span></article>
+          <article class="service service-blue"><span class="service-index">B</span><h3>Pendampingan usaha</h3><p>Arah awal bagi pelaku usaha yang sedang bersiap bertumbuh.</p><span class="service-arrow">↗</span></article>
+          <article class="service service-pink"><span class="service-index">C</span><h3>Jalur sertifikasi</h3><p>Memahami proses sertifikasi dengan bahasa yang lebih dekat.</p><span class="service-arrow">↗</span></article>
+        </div>
+      </section>
+
+      <section class="how" id="cara-kerja" aria-labelledby="how-title">
+        <div class="how-visual"><span class="path path-one"></span><span class="path path-two"></span><div class="how-node node-one">Tanya</div><div class="how-node node-two">Temukan</div><div class="how-node node-three">Pahami</div></div>
+        <div class="how-copy">
+          <p class="section-kicker">AI Assistant</p>
+          <h2 id="how-title">Jawaban yang tidak menebak-nebak.</h2>
+          <p>Asisten ini menelusuri knowledge base Ruang Halal sebelum merangkai jawaban. Dalam demo ini, Anda dapat langsung melihat percakapannya bekerja.</p>
+          <button class="button button-dark" data-open-chat type="button">Coba pertanyaan Anda <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <section class="invitation" aria-label="Ajakan untuk berkonsultasi">
+        <p>Masih ada yang ingin ditanyakan?</p>
+        <button data-open-chat type="button">Mari berbincang <span aria-hidden="true">↗</span></button>
+      </section>
+    </main>
+
+    <footer><span>Ruang Halal AI Assistant</span><span>Prototype demo · 2026</span></footer>
+
+    <button class="chat-launcher" data-open-chat type="button" aria-label="Buka Ruang Halal AI Assistant"><span class="launcher-spark">✦</span><span>Tanya Ruang Halal</span></button>
+
+    <aside class="chat-shell" id="konsultasi" aria-label="Ruang Halal AI Assistant" aria-hidden="true">
+      <div class="chat-card">
+        <header class="chat-header">
+          <div><p>Ruang Halal</p><h2>AI Assistant <span class="online">Tersedia</span></h2></div>
+          <button class="icon-button" data-close-chat type="button" aria-label="Tutup percakapan">×</button>
+        </header>
+        <div class="chat-body" id="chatMessages" aria-live="polite">
+          <div class="message assistant-message"><span class="message-label">Ruang Halal AI</span><p>Halo, saya siap membantu Anda mengenal Ruang Halal. Apa yang ingin Anda ketahui?</p></div>
+        </div>
+        <div class="suggestions" aria-label="Contoh pertanyaan">
+          <button type="button">Apa itu Ruang Halal?</button>
+          <button type="button">Bagaimana proses sertifikasi halal?</button>
+          <button type="button">Apa manfaat sertifikasi halal?</button>
+        </div>
+        <form class="chat-form" id="chatForm">
+          <label class="sr-only" for="chatInput">Tulis pertanyaan Anda</label>
+          <textarea id="chatInput" rows="1" maxlength="1000" placeholder="Tulis pertanyaan Anda…"></textarea>
+          <button id="sendButton" type="submit" aria-label="Kirim pertanyaan"><span aria-hidden="true">↑</span></button>
+        </form>
+        <p class="chat-note">Jawaban diambil dari knowledge base Ruang Halal.</p>
+      </div>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
